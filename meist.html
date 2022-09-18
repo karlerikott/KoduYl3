@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ee">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Ostukorv</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- minu CSS -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <!-- päis -->
+    <header class="py-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 my-3 text-center">
+            <img src="logo2.png" width="50%" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navigatsioon -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Uued tooted</a></li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Vannitooted</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Vannisoolad</a>
+              <a class="dropdown-item" href="#">Vannipiimad</a>
+              <a class="dropdown-item" href="#">Vannipommid</a>
+              <a class="dropdown-item" href="list.html"
+                >Seebid ja du&scaron;igeelid</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Kehahooldus</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Kehakreemid</a>
+              <a class="dropdown-item" href="#">Keha&otilde;lid</a>
+              <a class="dropdown-item" href="#">Kehakoorijad</a>
+              <a class="dropdown-item" href="#">Deodorandid</a>
+              <a class="dropdown-item" href="#">K&auml;te ja jalgade hooldus</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >N&auml;ohooldus</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Puhastus ja toniseerimine</a>
+              <a class="dropdown-item" href="#">Niisutus ja toitmine</a>
+              <a class="dropdown-item" href="#">Koorijad ja maskid</a>
+            </div>
+          </li>
+        </ul>
+        <!-- search -->
+        <form class="form-inline m-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Otsi"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-white my-2 my-sm-0" type="submit">
+            <svg class="lnr lnr-magnifier">
+              <use xlink:href="#lnr-magnifier"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <!-- cart -->
+      <a href="cart.html"
+        ><button class="btn btn-dark my-2 my-sm-0" type="submit">
+          <svg class="lnr lnr-cart">
+            <use xlink:href="#lnr-cart"></use>
+          </svg></button
+      ></a>
+    </nav>
+    <section>
+      <!-- breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-white my-2">
+          <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
+          <li class="breadcrumb-item active">Meist</li>
+        </ol>
+      </nav>
+    </section>
+    <!-- jumbotron --->
+    <div style="background-color: pink" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">MEIST</h1>
+        <p class="lead">Info meie ettevõtte kollektiivi kohta</p>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <table class="table" style="width: 50%">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Eesnimi</th>
+                  <th scope="col">Perenimi</th>
+                  <th scope="col">Positsioon</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Madis</td>
+                  <td>Maalt</td>
+                  <td>Firmajuht</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Karl Sten</td>
+                  <td>Kriipar</td>
+                  <td>Koristaja</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Terje</td>
+                  <td>Zorro</td>
+                  <td>Omanik</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Dagnar</td>
+                  <td>Elwin</td>
+                  <td>Töömees</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md">
+            <h2>Tekst</h2>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <h1>Meie Kollektiiv</h1>
+            <img src="Lemmikud.PNG" style="width: 80%" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jalus --->
+    <footer class="bg-light">
+      <div class="container-fluid">
+        <div class="row footer-sm">
+          <div class="col-4">
+            <ul class="footer-links">
+              <li><a>TEL: 5555 5555</a></li>
+              <li><a>EMAIL: email@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-4">
+            <a href="#"><img src="ig.png" alt="instagram" /></a>
+            <br />
+            <br />
+            <a href="#"><img src="yt.png" alt="youtube" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Boostrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ikoonid -->
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  </body>
+</html>
